@@ -18,7 +18,7 @@
 | Cross-region replication | yes | yes | yes | 
 | Multi-region replication | yes (with MirrorMaker or Confluent Replicator) | yes (with MirrorMaker or Confluent Replicator) | no | 
 | Throttling | yes (through Quotas) | yes (through Quotas) | yes | 
-| Maximum message size | no limit (default 1MB) | no limit (default 1MB) | limit on 256K | 
+| Maximum message size | no limit (default 1MB) | no limit (default 1MB) | limit on 256K for basic or standard sized Event Hub, 1MB for [dedicated](https://azure.microsoft.com/de-de/blog/event-hubs-dedicated-offering/) | 
 | Authentication | optional (SASL, kerberos) | optional (kerberos, Ranger) | mandatory (SAS based) |
 | Authorization | optional (ACL) | optional (ACL, Ranger) | ? |
 | Monitoring | Kafka Manager, Confluent Control Center (commercial) | through Ambari |  |
