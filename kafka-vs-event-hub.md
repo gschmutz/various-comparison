@@ -1,9 +1,9 @@
 |   | Confluent Open Source   | HDInsight Kafka | Azure Event Hub |
 |:------------- |:---------------|:-------------|:-------------|
 |              |         |            |               |
-| Support by open source componentes | good | good      |            poor |
+| Support by open source componentes | good | good      |            restricted |
 | Support by StreamSets Data Collector | yes | yes      |            yes |
-| Support by Spark Structured Streaming | yes | yes       |            not |
+| Support by Spark Structured Streaming | yes | yes       |            no |
 | Support by Kafka Streams | yes | yes       |  no (only via Kafka Connect bridge to Kafka) |
 | Support by Azure Stream Analytics | yes | yes       |  yes |
 | Supports REST | yes (with REST proxy)  | (with REST proxy) | yes |
