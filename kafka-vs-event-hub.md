@@ -11,7 +11,7 @@
 | Supports MQTT | no  | no | no |
 | Supported Clients       | Java, .Net, Go, Phyton, C++ | | .Net, Java |
 | Supports Avro       | yes| yes | no |
-| Surrounding components       | Kafka Connect, Kafka Streams, | yes | Event Hubs Capture, Azure Event Grid |
+| Surrounding components       | Kafka Connect, Kafka Streams, | yes | Event Hubs Capture, Azure Event Grid, Azure Stream Analytics, Azure Functions|
 |              |         |            |               |
 | Available on-premises | yes        | no |           no |
 | Available as a service | no        | yes |       yes |
